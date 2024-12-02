@@ -1,0 +1,134 @@
+/* General container for the edit quiz page */
+.edit-quiz-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the main heading */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* List of questions and options */
+  .question-list {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for each question item */
+  .question-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Input fields for questions and answers */
+  .question-input,
+  .answer-input,
+  .add-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Button styles */
+  .delete-button,
+  .add-button,
+  .back-button {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .delete-button {
+    background-color: skyblue; /* Default background color */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .delete-button:hover {
+    background-color: red; /* Red background on hover */
+  }
+  
+  /* Add button */
+  .add-button {
+    background-color: #4caf50;
+  }
+  
+  /* Back button in the editing section */
+  .back-button {
+    background-color: #008cba;
+  }
+  
+  /* Hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Save changes button */
+  .save-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  /* Hover effect for save button */
+  .save-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Confirmation message styling */
+  .confirmation-message {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .confirmation-message h3 {
+    font-size: 24px;
+    color: #28a745; /* Green color for success */
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Back to Topics button after saving changes */
+  .back-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for question and options cards */
+  .question-card {
+    margin-bottom: 20px;
+  }
+  
+  .question-card input {
+    margin-bottom: 10px;
+  }
+  
+  /* Button container for question options */
+  .save-changes {
+    text-align: center;
+  }
+  /* Add new question section styling */
+  
+  
