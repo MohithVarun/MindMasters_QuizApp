@@ -58,18 +58,37 @@ The application will automatically open in your default browser at http://localh
 ```plaintext
 MindMasters_QuizApp/
 ├── public/
-│   ├── index.html
-│   └── favicon.ico
+│   ├── Qdata.json
+│   ├── vite.svg
+│   └── index.html
 ├── src/
-│   ├── components/
+│   ├── assets/
+│   │   └── react.svg
 │   ├── Styles/
-│   │   └── AddQuestion.css
-│   ├── App.jsx
+│   │   ├── AddQuestion.css
+│   │   ├── AddTopics.css
+│   │   ├── EditQuiz.css
+│   │   ├── Home.css
+│   │   ├── Quiz.css
+│   │   └── Topic.css
 │   ├── AddQuestion.jsx
-│   ├── Topics.jsx
-│   └── index.js
+│   ├── AddTopic.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── EditQuiz.jsx
+│   ├── Home.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   ├── Quiz.jsx
+│   ├── Result.jsx
+│   ├── style.css
+│   └── Topic.jsx
+├── .gitignore
+├── eslint.config.js
+├── package-lock.json
 ├── package.json
-└── README.md
+├── README.md
+└── vite.config.js
 ```
 ## Technology Stack
 - React.js - Frontend framework
