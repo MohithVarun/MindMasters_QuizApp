@@ -73,7 +73,6 @@ MindMasters_QuizApp/
 │   │   └── Topic.css
 │   ├── AddQuestion.jsx
 │   ├── AddTopic.jsx
-│   ├── App.css
 │   ├── App.jsx
 │   ├── EditQuiz.jsx
 │   ├── Home.jsx
