@@ -53,7 +53,9 @@ The application will automatically open in your default browser at http://localh
 2. Click "Start Quiz"
 3. Answer each question by selecting one of the options
 4. View your final score after completing the quiz
-### Project Structure
+### 📂 Project Structure
+
+```plaintext
 MindMasters_QuizApp/
 ├── public/
 │   ├── index.html
@@ -68,6 +70,7 @@ MindMasters_QuizApp/
 │   └── index.js
 ├── package.json
 └── README.md
+```
 ## Technology Stack
 - React.js - Frontend framework
 - React Router DOM - Navigation
@@ -93,3 +96,7 @@ To modify this project:
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Contact
+For inquiries or collaboration opportunities, reach out via email at **mohithvarunr@gmail.com** or visit [GitHub](https://github.com/MohithVarun)
+.
