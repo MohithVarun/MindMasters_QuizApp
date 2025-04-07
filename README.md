@@ -15,3 +15,7 @@ MindMasters Quiz App is an interactive React-based application that enables user
 1. Clone the repository
 ```bash
 git clone https://github.com/AP22110010529/MindMasters_QuizApp.git
+
+2. Navigate to the project directory:
+cd MindMasters_QuizApp
+ ```
