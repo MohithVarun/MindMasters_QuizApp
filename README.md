@@ -54,3 +54,42 @@ The application will automatically open in your default browser at http://localh
 3. Answer each question by selecting one of the options
 4. View your final score after completing the quiz
 ### Project Structure
+MindMasters_QuizApp/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   ├── Styles/
+│   │   └── AddQuestion.css
+│   ├── App.jsx
+│   ├── AddQuestion.jsx
+│   ├── Topics.jsx
+│   └── index.js
+├── package.json
+└── README.md
+## Technology Stack
+- React.js - Frontend framework
+- React Router DOM - Navigation
+- CSS3 - Styling
+- Local Storage - Data persistence
+## Development
+To modify this project:
+
+1. Fork the repository
+2. Create a new branch ( git checkout -b feature/YourFeature )
+3. Make changes
+4. Commit ( git commit -m 'Add YourFeature' )
+5. Push to branch ( git push origin feature/YourFeature )
+6. Create Pull Reques
+
+## Future Enhancements
+- User authentication system
+- Score history tracking
+- Timer for quizzes
+- Different question types
+- Share quiz results
+- Leaderboard system
+
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
