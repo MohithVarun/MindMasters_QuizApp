@@ -1,8 +1,17 @@
-# React + Vite
+# MindMasters Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+MindMasters Quiz App is an interactive React-based application that enables users to create, manage, and participate in quizzes across various topics. The application features a user-friendly interface for both quiz creation and participation.
 
-Currently, two official plugins are available:
+## Features
+- Create and manage quiz topics
+- Add custom questions with multiple-choice options
+- Take quizzes on different topics
+- Instant feedback on quiz completion
+- Local storage for data persistence
+- Responsive design for all devices
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation and Setup
+1. Clone the repository
+```bash
+git clone https://github.com/AP22110010529/MindMasters_QuizApp.git
